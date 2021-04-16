@@ -20,3 +20,20 @@ class Animal:
 
     def check_mood(self):
         return self.__mood
+
+
+# class Mammal(Animal):
+#     def __init__(self, __animal_type, __name, __mood, __hair_color):
+#         super().__init__(self, __animal_type, __name, __mood)
+#         self.__hair_color = __hair_color
+
+#     def get_hair_color:
+#         return self.__hair_color
+
+# class Bird(Animal):
+#     def __init__(self, __animal_type, __name, __mood, __can_fly):
+#         super().__init__(self, __animal_type, __name, __mood)
+#         self.__can_fly = __can_fly
+
+#     def get_can_fly:
+#         return self.__can_fly

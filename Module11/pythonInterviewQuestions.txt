@@ -1,0 +1,67 @@
+# Name: Ryan Christopher
+# Pawprint: rdcb2f
+# Questions: 11
+# Module 11
+
+1) Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.
+2) A variable is a reserved memory location to store values
+3) A namespace is a collection of currently defined symbolic names along with information about the object that each name references
+4) The difference between a list and a tuple is a list is a type of container in data structures, which is used to store multiple data at the same time
+    A tuple is also a sequence data type that can contain elements of different data types, but these are immutable in nature
+5) You can convert a number to a string by using the str() method
+6) The rules for local and global variables are variables referenced inside a function are global
+    When a variable is assigned a new value anywhere in the body of a function then it is assumed as local
+    If a variable is ever assigned new value then the variable is implicitly local and explicitly it should be declared as global
+7) You can generate random numbers by using the randint() method
+8) A dictionary is an implementation of a data structure that is more generally known as an associative array
+    A dictionary consists of a collection of key-value paris. Each key value pair maps the key to its associated value
+9) The self keyword is used to represent an instance of the given class
+10) Loop interruption statements are contine and break
+    Break can be used if the user has to stop the loop without completing the rest of the loop
+    Contineu can be used if the user has to ignore the rest of the commands within the loop and contine with the next iteration
+11) A list is used to store multiple items of the same type in a single variable
+    A tuple is used to store multiple items of different types in a single variable
+    A set is is used to store multiple items in a single variable in any order
+    A dictionary is a collection which is ordered, changeable and does not allow duplicates
+12) Exception handling is done by using try, except
+13) The '#' symbol creates a comment
+14) The command to get all keys from a dictionary is dict.keys()
+15) Range() funciton returns a sequence of numbers, starting from 0 by default, and increments by 1, and stops before a specified number
+16) The // arithmetic operator is a floor operator which divides the first number by the second and then rounds the result down
+17) A data type is the certain form that a variable is stored as
+18) The basic data types that are supported by the language are str, int, float, complex, list, tuple, range, dict, set, frozenset, bool, bytes, bytearray, memoryview
+19) You check whether the two variables are pointing to the same object by using the "is" keyword
+20) For-else is used as a normal for loop, but the else keyword specifies a block of code to be executed when the loop finishes
+    While-else is a statment that runs with an else that executes when the condition is no longer true
+21) Immutable in the context of programming means that they cant be changed after they are created
+22) A list in pyton is used to store multiple items of the same type in a single variable
+23) A tuple in python is used to store multiple items of different types in a single variable
+24) You choose a list over a tuple when when you need the array to be mutable
+25) You get the last value in a list or a tuple by taking the length of the list minus 1
+26) The Index Out Of Range Error means that the index you are trying to access does not exist
+27) A program should close a file when it is finished using it because failure to do so can result in a loss of data or memory
+28) for x in list:
+        if (x == 'Dale'):
+            print("Hello Dale")
+    else:
+        print("No Dale")
+29) f = open("specificfile.txt", "r")
+    dict newDictionary 
+    for x in f:
+        for y in newDictionary:
+            if (x == y):
+                newDiction[y] = x
+            else:
+                newDictionary.append(x)
+    f.close()
+30) f = open("file.txt", "r")
+    dict dictionary
+    for x in f:
+        for y in dictionary:
+            if (x == y):
+                dictionary[x] += 1
+            else:
+                dictionary.append(x)
+    f.close()
+    for x in dictionary:
+        print(dictionary[x])
