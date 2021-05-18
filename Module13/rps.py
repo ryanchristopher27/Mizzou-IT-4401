@@ -56,7 +56,10 @@ def startNewGame(name, wins, losses, ties):
             print("\nWins: " + str(wins))
             print("Losses: " + str(losses))
             print("Ties: " + str(ties))
-            print("Win/Loss Ratio: " + str(wins/(wins+losses)))
+            if ((wins + losses) == 0):
+                print("Win/Loss Ratio: No wins or losses")
+            else:
+                print("Win/Loss Ratio: " + str(wins/(wins+losses)))
         elif (gameChoice == "3"):
             # Quit
             cont = False
